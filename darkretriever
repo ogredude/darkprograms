@@ -60,6 +60,6 @@ if programs[char] then
   program = getUrlFile(cat[programs[char]].GitURL)
   writeFile(programs[char], program)
   print("\nDownloaded "..programs[char])
-  print("You can run it by typing its filename")
+  print("You can run it by typing "..programs[char])
   print("Thanks for using Dark Retriever!")
 end
